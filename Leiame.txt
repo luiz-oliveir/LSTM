@@ -1,0 +1,3 @@
+Esse código configura um modelo de LSTM Variational Autoencoder (LSTM-VAE) para detectar padrões e anomalias em séries temporais, possivelmente de temperaturas máximas a partir de dados meteorológicos.
+Lê séries temporais meteorológicas de arquivos Excel e Constrói um modelo LSTM-VAE para compressão e reconstrução dos dados; Detecta anomalias extremas na série temporal de temperaturas máximas, série temporal do INMET; Usa TensorFlow/Keras com otimização para GPU
+Gera dados sintéticos caso não haja arquivos disponíveis
